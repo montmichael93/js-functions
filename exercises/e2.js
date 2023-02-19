@@ -13,7 +13,7 @@
 // Your function code starts here...
 
 function rectArea(side1, side2) {
-  return side1 * side2
+  return side1 * side2;
 }
 
 
@@ -28,13 +28,13 @@ console.log(rectArea(5, 6))
 
 // Your code goes here:
 
-function roomVars(sideA, sideB) {
-  return sideA * sideB
-}
+//FIX THIS!!!!!
 
-var room1 = roomVars(4, 6)
-var room2 = roomVars(13, 3)
-var room3 = roomVars(4, 8)
+
+
+var room1 = rectArea(4, 6)
+var room2 = rectArea(13, 3)
+var room3 = rectArea(4, 8)
 
 console.log([room1, room2, room3])
 
@@ -51,8 +51,8 @@ console.log([room1, room2, room3])
 // Your code goes here...
 
 function totalRoomsArea(area1, area2, area3) {
-  var result = area1 + area2 + area3
- return result
+  return area1 + area2 + area3;
+
  
 }
 
@@ -62,7 +62,7 @@ function totalRoomsArea(area1, area2, area3) {
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 values as arguments for the function call
 const result = function () {
-    console.log(totalRoomsArea(room1, room2, room3));
+  console.log(totalRoomsArea(room1, room2, room3));
 }
 
 
