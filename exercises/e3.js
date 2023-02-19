@@ -15,6 +15,15 @@
 
 // Your code goes here...
 
+function doesArrayIncludeItemsBetweenVals (arr, val1, val2) {
+  for (let number of arr ) {
+    if (number > val1 && number < val2)
+      return true
+  }
+  return false
+}
+
+console.log(doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10))
 
 
 /**
@@ -30,6 +39,60 @@
  * getValueWithConditionOne(40, 40) => 80;
  * getValueWithConditionOne(20, 30) => 100;
  */
+
+function getValueWithConditionOne(num1, num2) {
+  
+  if (num1,num2 === 40) {
+    return num1 + num2
+  }
+  return (num1 * 2) + (num2 * 2)
+}
+
+console.log(getValueWithConditionOne(40, 40))
+console.log(getValueWithConditionOne(20, 30))
+
+
+
+
+
+
+
+let getValueWithConditionTwo = (num1, num2) => {
+  
+  if (num1,num2 === 40) {
+    return num1 + num2
+  }
+  return (num1 * 2) + (num2 * 2)
+}
+
+
+
+ console.log(getValueWithConditionTwo(40, 40))
+  console.log(getValueWithConditionTwo(20, 30))
+
+
+
+
+
+
+
+  var getValueWithConditionThree = function (num1, num2) {
+    if (num1,num2 === 40) {
+   return num1 + num2
+ }
+ return (num1 * 2) + (num2 * 2)
+
+};
+     
+  
+
+
+
+
+console.log(getValueWithConditionThree(40, 40))
+console.log(getValueWithConditionThree(20, 30))
+
+
 
 
 
